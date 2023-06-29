@@ -4,9 +4,9 @@
 
 run following comand
 
-cd mobio_assesment\n
-npm install\n
-npm start\n
+#cd mobio_assesment
+#npm install\n
+#npm start\n
 
 
 
