@@ -5,8 +5,8 @@
 run following comand
 
 ## cd mobio_assesment
-## npm install\n
-## npm start\n
+## npm install
+## npm start
 
 
 
