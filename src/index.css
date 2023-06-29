@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+
+html,body,#root{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    border: none;
+}
+
+
+
+.img{
+    object-fit: contain;
+    height: 200px;
+}
+.badge{
+    background-color: #b94517;
+    padding: 0.25rem 1rem;
+    border-radius: 25px;
+    margin-left: 1rem;
+    font-weight: bold;
+}
+.icon{
+    width: 2rem;
+    height: 2rem;
+    margin-right: 0.25rem;
+    color: white;
+    margin-top: 0.2rem;
+}
+
+.cart-itmes{
+    list-style: none;
+    font-weight: bold;
+    font-size: 1rem;
+    max-height: 40vh;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.total{
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: 1.3rem;
+    margin-right: 5rem;
+}
+
+.action{
+    display: flex;
+    justify-content: end;
+    margin-top: 14px;
+
+}
+
+.close-btn{
+    margin-right: 10px;
+    border : 1px solid brown;
+    background: transparent;
+    font-size: 1rem;
+    border-radius: 15px;
+    padding: 5px 10px;
+    font-weight: bold;
+}
+
+.close-btn:hover,
+.close-btn:active{
+    background-color: brown;
+    color: white;
+}
+.order-btn{
+
+    margin-left: 10px;
+    background-color: brown;
+    font-size: 1rem;
+    border-radius: 15px;
+    color: white;
+    font-weight: bold;
+    padding: 4px 10px;
+    border: none;
+}
+
+.cart-item{
+    border: none;
+    border-bottom: 2px solid brown;
+    width: 100%;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cart-item h2{
+    font-size: 1.1rem;
+    color: rgb(58, 53, 53);
+}
+
+.summary{
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.price{
+    color: rgb(133, 48, 48);
+    margin-right: 5rem;
+}
+.amount{
+    color: rgb(46, 42, 42);
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    padding: 4px;
+}
+
+.backdrop{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 30;
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+.modal-overlay{
+
+    position: fixed;
+    top: 5vh;
+    height: 90%;
+    z-index: 100;
+    width: 50%;
+    background-color: white;
+    left: 25%;
+    margin: 0 auto;
+    border-radius: 14px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    z-index: 40;
+    animation: slide-down 300ms ease-out forwards;
+}
+
+@media (min-width: 768px) {
+  .modal {
+    width: 40rem;
+    left: calc(50% - 20rem);
+  }
+}
+
+@keyframes slide-down {
+  from {
+    opacity: 0;
+    transform: translateY(-3rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.bump{
+    animation: bump 300ms ease-out;
+}
+
+@keyframes bump{
+    0%{
+        transform: scale(1);
+    }
+
+    10%{
+        transform: scale(0.9);
+    }
+    30%{
+        transform: scale(0.7);
+    }
+    50%{
+        transform: scale(0.5);
+    }
+    70%{
+        transform: scale(0.3);
+    }
+    90%{
+        transform: scale(0.1);
+    }
+    100%{
+        transform: scale(0);
+    }
+}
