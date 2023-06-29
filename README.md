@@ -12,8 +12,7 @@ run following comand
 
 # Screen shot
 
-
-![Screenshot (227)](https://github.com/mgehlott/mobio_assesment/assets/71176420/bb691205-f5a4-4a0e-955d-3a594da2058e)
-![Screenshot (231)](https://github.com/mgehlott/mobio_assesment/assets/71176420/ecf9dc36-cad9-41a6-8b7f-5ba2bc0a97d6)
-![Screenshot (229)](https://github.com/mgehlott/mobio_assesment/assets/71176420/418da478-1382-4873-b052-1d8698712e83)
-![Screenshot (230)](https://github.com/mgehlott/mobio_assesment/assets/71176420/f1e03450-949b-43fa-8261-598dc4b08b24)
+![Screenshot (232)](https://github.com/mgehlott/mobio_assesment/assets/71176420/bde73552-dcd8-4069-b59d-c2cb1449b7f4)
+![Screenshot (233)](https://githu![Screenshot (229)](https://github.com/mgehlott/mobio_assesment/assets/71176420/ed72d1e2-6bc7-4533-82c6-c281cf4896c0)
+b.com/mgehlott/mobio_assesment/assets/71176420/6bc246c9-68ee-42b4-9650-a6b8123d3f69)
+![Screenshot (230)](https://github.com/mgehlott/mobio_assesment/assets/71176420/29e67217-27a9-4bf8-8441-6e7fc8bfe8d7)
